@@ -1,0 +1,12 @@
+---
+title: "R Notebook"
+output: Intro_to_Machine_Learning_in_R
+---
+
+
+The strength of R comes from the wealth of packages available for data science, machine learning, web scraping, etc.  To install a package use the 
+```{r, install packages, eval=FALSE}
+install.packages('data.table')
+install.packages('glmnet')
+```
+
