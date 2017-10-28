@@ -1,7 +1,9 @@
 library(data.table)
 
-?fread
-fread
+# useful commands
+rm(list = ls()) # remove all variables
+?fread          # get help
+fread           # see source code
 
 # Exploratory Data Analysis -------------------
 DT <- fread('data/wages.csv')
